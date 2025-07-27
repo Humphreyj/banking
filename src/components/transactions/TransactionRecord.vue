@@ -6,8 +6,10 @@ interface TransactionRecordProps {
     id: string
     amount: number
     date: string
-    merchant: string
+    merchant?: string
     category: string
+    description?: string
+    type: string
 }
 const props = withDefaults(defineProps<TransactionRecordProps>(), {
     id: crypto.randomUUID(),

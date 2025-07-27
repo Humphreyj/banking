@@ -5,45 +5,28 @@
 </script>
 
 <template>
-    <footer
-        class="fixed bottom-0 left-0 w-full bg-white shadow-md border-t border-gray-200"
-    >
-        <div class="flex-ic-je py-4 w-full">
-            <v-icon
-                color="green-darken-2"
-                icon="mdi-domain"
-                size="large"
-            ></v-icon>
+    <v-bottom-navigation grow>
+        <v-btn value="home">
+            <v-icon>mdi-home</v-icon>
 
-            <v-icon
-                color="blue-darken-2"
-                icon="mdi-message-text"
-                size="large"
-            ></v-icon>
+            <span>Home</span>
+        </v-btn>
 
-            <v-icon
-                color="purple-darken-2"
-                icon="mdi-dialpad"
-                size="large"
-            ></v-icon>
+        <v-btn value="wallet">
+            <v-icon>mdi-wallet</v-icon>
 
-            <v-icon
-                color="teal-darken-2"
-                icon="mdi-email"
-                size="large"
-            ></v-icon>
+            <span>Wallet</span>
+        </v-btn>
 
-            <v-icon
-                color="blue-grey-darken-2"
-                icon="mdi-call-split"
-                size="large"
-            ></v-icon>
+        <v-btn value="report">
+            <v-icon>mdi-chart-timeline</v-icon>
 
-            <v-icon
-                color="orange-darken-2"
-                icon="mdi-arrow-up-bold-box-outline"
-                size="large"
-            ></v-icon>
-        </div>
-    </footer>
+            <span>Report</span>
+        </v-btn>
+        <v-btn value="account">
+            <v-icon>mdi-account</v-icon>
+
+            <span>Account</span>
+        </v-btn>
+    </v-bottom-navigation>
 </template>
