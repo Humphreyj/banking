@@ -5,7 +5,9 @@
 </script>
 
 <template>
-    <footer class="fixed bottom-0 left-0 w-full bg-white shadow-md">
+    <footer
+        class="fixed bottom-0 left-0 w-full bg-white shadow-md border-t border-gray-200"
+    >
         <div class="flex-ic-je py-4 w-full">
             <v-icon
                 color="green-darken-2"
