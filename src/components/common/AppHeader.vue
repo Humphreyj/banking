@@ -8,7 +8,7 @@ console.log('Route:', route)
 </script>
 
 <template>
-    <header class="w-full flex-ic-jb p-4">
+    <header class="w-full flex-ic-jb p-4 border-b border-gray-200 mb-3">
         <div class="w-full flex-ic-jb gap-3">
             <section class="flex-ic-js gap-2">
                 <v-avatar class="" size="48">

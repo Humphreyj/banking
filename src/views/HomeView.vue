@@ -9,9 +9,11 @@ import TransactionHistory from '@/components/account/TransactionHistory.vue'
 </script>
 
 <template>
-    <div class="flex-col-is-js w-full gap-4 px-2">
-        <BalanceCard />
-        <PrimaryActions />
+    <div class="flex-col-is-js w-full gap-4">
+        <div class="flex-col-is-js w-full gap-4 px-3">
+            <BalanceCard />
+            <PrimaryActions />
+        </div>
         <TransactionHistory />
     </div>
 </template>

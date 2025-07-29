@@ -9,7 +9,9 @@ import AppFooter from '@/components/common/AppFooter.vue'
 <template>
     <v-app>
         <AppHeader />
-        <RouterView />
+        <div class="w-full bg-gray-100 h-full">
+            <RouterView />
+        </div>
         <AppFooter />
     </v-app>
 </template>
